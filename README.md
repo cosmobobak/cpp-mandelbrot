@@ -1,2 +1,2 @@
-# cpp-mandlebrot
- mandlebrot set generator in C++
+# cpp-mandelbrot
+ mandelbrot set generator in C++
