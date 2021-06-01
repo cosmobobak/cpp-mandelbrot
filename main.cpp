@@ -25,7 +25,7 @@ auto log_shift(int i) {
     return log(i) * 145.0;
 }
 
-auto mandlebrot(int xdim, int ydim) {
+auto mandlebrot(size_t xdim, size_t ydim) {
     // std::vector<std::vector<int>> counts(ydim, std::vector<int>(xdim));
 
     constexpr int max_iteration = 1000;
