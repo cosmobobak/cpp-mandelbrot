@@ -35,8 +35,8 @@ auto mandlebrot(size_t xdim, size_t ydim) {
     for (size_t ypos = 0; ypos < ydim; ypos++) {
         std::cout << "|";
         for (size_t xpos = 0; xpos < xdim; xpos++) {
-            double x0 = (double)xpos / (double)xdim * 3.5 - 2.5;
-            double y0 = (double)ypos / (double)ydim * 2.0 - 1.0;
+            const double x0 = (double)xpos / (double)xdim * 3.5 - 2.5;
+            const double y0 = (double)ypos / (double)ydim * 2.0 - 1.0;
 
             double x = 0;
             double y = 0;
